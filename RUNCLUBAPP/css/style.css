@@ -730,12 +730,13 @@ h2.creative-title span {
 
 .gallery-info p {
 	margin-top: 45px;
+	margin-bottom: 80px;
 }
 
 @media (min-width: 1200px) {
 	.gallery-info p {
 		max-height: 160px;
-		overflow: hidden;
+		overflow: auto;
 	}
 }
 
@@ -983,7 +984,7 @@ h2.creative-title span {
 .slide-box {
 	width: 100%;
 	position: relative;
-	margin-bottom: 60px;
+	margin-bottom: 80px;
 	z-index: 1;
 	background-color: #ffffff;
 	box-shadow: 0 25px 25px rgba(0, 0, 0, 0.15);
@@ -1002,9 +1003,9 @@ h2.creative-title span {
 
 .slide-preview {
 	position: relative;
-	padding-bottom: 79%;
+	padding-bottom: 100%;
 	width: 100%;
-	min-height: 50%;
+	min-height: 70%;
 }
 
 .slide-preview img {
@@ -1105,7 +1106,7 @@ h2.creative-title span {
 	font-weight: 300;
 	font-style: italic;
 	letter-spacing: .03em;
-	color: rgba(250, 245, 245, 0.7);
+	color: rgba(9, 0, 0, 0.7);
 	margin-top: 0;
 }
 
@@ -1175,6 +1176,58 @@ h2.creative-title span {
 		margin-top: 70px;
 	}
 }
+
+
+/*
+* events
+*/
+.events-section {
+	text-align: center;
+	padding: 40px;
+	background-color: #f9f9f9;
+  }
+  
+  .events-section h2 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+  }
+  
+  .event {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	margin: 20px auto;
+	padding: 20px;
+	max-width: 600px;
+  }
+  
+  .event h3 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+  }
+  
+  .event p {
+	font-size: 1rem;
+	margin: 5px 0;
+  }
+  
+  .sign-up-btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: teal;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	margin-top: 15px;
+  }
+  
+  .sign-up-btn:hover {
+	background-color: darkcyan;
+  }
+
+  
+
 
 /*
 * Element groups
