@@ -3402,13 +3402,20 @@ html [class*='section-'].section-bottom-0 {
 	.cta-section {
 		background-position: bottom right;
 	}
+
+	@media (max-width: 480px) {
+		.cta-section {
+			background-image: url('images/RUNTHEA8.png');
+		}
+	}
 }
 
 .cta-creative {
 	padding: 155px 0;
-	background-position: top right;
+	background: rgba(255, 255, 255, 0.6);
+	background-position: bottom right;
 	background-repeat: no-repeat;
-	background-size: 800PX 800PX;
+	background-size: 400PX 400PX;
 }
 
 .slider-modern {
@@ -3624,7 +3631,7 @@ html [class*='section-'].section-bottom-0 {
 
 .media-overlay:before {
 	content: '';
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 100%;
 	background: rgba(255, 255, 255, 0.6);
